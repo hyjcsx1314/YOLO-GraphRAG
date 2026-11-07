@@ -1,0 +1,6 @@
+# Streamlit UI runtime, installed in the existing .venv-rag environment
+streamlit>=1.47,<2
+pandas>=2.0,<3
+plotly>=5.22,<7
+networkx>=3.1,<4
+neo4j>=5.0,<7

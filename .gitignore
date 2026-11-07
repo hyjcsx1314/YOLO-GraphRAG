@@ -1,0 +1,55 @@
+# Credentials / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+.streamlit/secrets.toml
+
+# Python / virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv-*/
+venv/
+env/
+*.egg-info/
+
+# Generated outputs, private datasets and binary models
+/results/
+/data/
+/models/
+/evaluation/
+volumes/
+checkpoints/
+.cache/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Local documents and archives
+*.docx
+*.pdf
+*.zip
+*.7z
+*.rar
+*:Zone.Identifier
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

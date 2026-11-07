@@ -1,0 +1,2 @@
+pymilvus==2.6.17
+sentence-transformers>=5,<6
